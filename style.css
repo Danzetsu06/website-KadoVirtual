@@ -1,0 +1,247 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "poppins", sans-serif;
+  margin: 0;
+}
+
+.container {
+  height: 100vh;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 100vw;
+  visibility: hidden;
+}
+
+.container > div {
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 20vh;
+}
+
+.one {
+  font-size: 5rem;
+}
+
+.two {
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+.three {
+  font-size: 5rem;
+}
+
+/* four */
+.textbox {
+  border: 3px solid #aaaa;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 1rem;
+  position: relative;
+  width: 600px;
+}
+
+.textbox__chat {
+  margin: 0;
+  text-align: justify;
+}
+
+.textbox__chat span {
+  font-size: 1rem;
+  visibility: hidden;
+}
+
+.fake__button {
+  background-color: rgb(21, 161, 237);
+  border-radius: 3px;
+  bottom: -50px;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  position: absolute;
+  right: 5px;
+}
+
+/* Five */
+
+.five p {
+  font-size: 2rem;
+  left: 0;
+  position: absolute;
+  right: 0;
+}
+
+.idea__3 strong {
+  border-radius: 3px;
+  display: inline-block;
+  padding: 3px 5px;
+}
+
+.idea__5 {
+  font-size: 3rem;
+}
+
+.idea__5 span .idea__6 span {
+  display: inline-block;
+}
+
+.idea__6 span {
+  font-size: 10rem;
+}
+
+/* Six */
+.six {
+    position: relative;
+    top: 10vh;
+    z-index: 1;
+}
+
+.profile {
+    display: inline-block;
+    height: 350px;
+    width: 350px;
+    border-radius: 50px;
+}
+
+.wish__hbd {
+    font-weight: lighter;
+    font-size: 2rem;
+    margin:  10px 0 0;
+}
+
+.wish__text {
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+/* seven */
+.balloons img {
+    display: inline-block;
+    position: absolute;
+}
+
+.balloons img:nth-child(even){
+    left: -10%;
+}
+
+.balloons img:nth-child(odd){
+    right: -10%;
+}
+
+.balloons img:nth-child(3n + 0){
+    left: 30%;
+}
+
+.seven{
+    height:  100vh;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}
+
+.eight svg {
+    left: 0;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    width: 25px;
+    z-index: -1;
+}
+
+.eight svg:nth-child(1){
+    fill: #bd6ecf;
+    left: 5vw;
+    top: 7vh;
+}
+
+.eight svg:nth-child(2){
+    fill: #349d8b;
+    left: 57vw;
+    top: 33vh;
+}
+.eight svg:nth-child(3){
+     fill: #347a9d;
+    left: 57vw;
+    top: 43vh;
+}
+.eight svg:nth-child(4){
+     fill: #347a9d;
+    left: 57vw;
+    top: 43vh;
+}
+.eight svg:nth-child(5){
+     fill: #c66053;
+    left: 7vw;
+    top: 68vh;
+}
+
+.eight svg:nth-child(6){
+     fill: #bfaa40;
+    left: 77vw;
+    top: 42vh;
+}
+
+.eight svg:nth-child(7){
+     fill: #e38bae;
+    left: 37vw;
+    top: 86vh;
+}
+
+.eight svg:nth-child(8){
+     fill: #8762cb;
+    left: 83vw;
+    top: 68vh;
+}
+
+.eight svg:nth-child(9){
+     fill: #9a90da;
+    left: 87vw;
+    top: 94vh;
+}
+
+/* nine */
+.nine p {
+  
+  font-size: 2rem;
+}
+
+.nine #replay{
+  cursor: pointer;
+  z-index: 3;
+}
+
+/* Handphone */
+
+@media (max-width: 576px) {
+  html {
+    font-size: 60%;
+    
+  }
+
+  .textbox{
+  border: 3px solid #aaaa;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 1rem;
+  position: relative;
+  width: 400px;
+  height: 50px;
+}
+
+.textbox__chat p {
+  font-size: 1.7rem;
+}
+
+.profile {
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border-radius: 50px;
+}
+
+}
