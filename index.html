@@ -133,7 +133,12 @@
         <p class="last__smile">
           :)
         </p>
+        
+        <p>
+          <button class="btn-wa" onclick="sendMessage()">Klik Me</button>
+        </p>
       </div>
+
     </div>
 
     
@@ -143,5 +148,16 @@
     <!-- GreenSock -->
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
     <script src="script.js"></script>
+
+      <!-- Message WA -->
+    <script>
+    function sendMessage() {
+      var phoneNumber = '6282253304042';
+      var message = encodeURIComponent('Tuliskan Pesan Kamu');
+      var whatsappUrl = 'https://wa.me/' + phoneNumber + '?text=' + message;
+      window.location.href = whatsappUrl;
+    }
+  </script>
+
   </body>
 </html>

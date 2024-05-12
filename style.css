@@ -215,6 +215,28 @@ body {
   z-index: 3;
 }
 
+.nine > p .btn-wa {
+  background: #25d366;
+  color: white;
+  border: none;
+  width: auto;
+  padding: 10px;
+  height: auto;
+  font-weight: bold;
+  text-align: center;
+  font-size: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.nine > p .btn-wa:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  font-size: 12px;
+}
+
+
 /* Handphone */
 
 @media (max-width: 576px) {
@@ -243,5 +265,7 @@ body {
     width: 200px;
     border-radius: 50px;
 }
+
+
 
 }
