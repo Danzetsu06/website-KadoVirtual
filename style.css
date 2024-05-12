@@ -215,7 +215,7 @@ body {
   z-index: 3;
 }
 
-.nine > p .btn-wa {
+/* .nine > p .btn-wa {
   background: #25d366;
   color: white;
   border: none;
@@ -228,7 +228,7 @@ body {
   border-radius: 10px;
   text-decoration: none;
   transition: 0.3s ease;
-}
+} */
 
 /* .nine > p .btn-wa:hover {
   cursor: pointer;
