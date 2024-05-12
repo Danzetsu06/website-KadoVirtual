@@ -230,11 +230,11 @@ body {
   transition: 0.3s ease;
 }
 
-.nine > p .btn-wa:hover {
+/* .nine > p .btn-wa:hover {
   cursor: pointer;
   opacity: 0.8;
   font-size: 12px;
-}
+} */
 
 
 /* Handphone */
